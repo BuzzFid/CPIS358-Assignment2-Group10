@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<h1>Contact</h1>
+
+<p>If you have questions or feedback, email us at <a href="mailto:aalsebaee0002@stu.kau.edu.sa">aalsebaee0002@stu.kau.edu.sa</a> or use the form below.</p>
+
+<form method="post" asp-action="Contact">
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input id="Name" name="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input id="Email" name="Email" type="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Message">Message</label>
+        <textarea id="Message" name="Message" class="form-control" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send</button>
+    </div>
+</form>
