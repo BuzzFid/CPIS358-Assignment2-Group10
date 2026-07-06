@@ -41,7 +41,7 @@ wwwroot/ -> css, js, images, bootstrap files
 ## Notes
 
 - Create / Edit / Delete only works if you're logged in
-- Made this with my group for a college assignment, not a real production app, so don't judge the code too hard 😅
+- Made this with my group for a college assignment, not a real production app
 
 ## Team
 
